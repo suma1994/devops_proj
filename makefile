@@ -1,4 +1,4 @@
-target.exe: main.o helloworld.o add2.o oddoreven.o largest.o
+cproject.exe: main.o helloworld.o add2.o oddoreven.o largest.o
 	gcc -o target.exe main.o helloworld.o add2.o oddoreven.o largest.o
 main.o: main.c
 	gcc -c main.c
